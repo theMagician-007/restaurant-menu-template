@@ -3,13 +3,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.box {
-  background-color: #26580f;
-  padding: 5%;
-  margin: 2% 2%;
-  border-radius: 5%;
-}
-
 .content-heading {
   color: white;
   font-size: 20px;
@@ -64,13 +57,34 @@ body {
   margin: 5% 10%;
 }
 
+.box {
+  background-color: #26580f;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5%;
+  width: 25%;
+}
+
 .middle-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin: 2% 10%;
 }
 .bottom-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin: 2% 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* when on mobile */
+  [class*="box"] {
+    width: 100%;
+  }
 }
