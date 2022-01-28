@@ -9,6 +9,7 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
+  padding: 2px;
 }
 
 .content-para {
@@ -17,6 +18,7 @@ body {
   font-size: 1.2 rem;
   font-weight: light;
   margin: 0;
+  padding: 2px;
 }
 
 .heading {
@@ -63,7 +65,7 @@ body {
 
 .box {
   background-color: #26580f;
-  padding: 1.5%;
+  padding: 1%;
   margin: 2%;
   border-radius: 5%;
   max-width: 320px;
@@ -84,3 +86,17 @@ body {
   /* margin: 2% 7%; */
 }
 
+@media screen and (max-width: 450px) {
+  .heading {
+    text-align: center;
+  }
+
+  .menu-content-1 {
+    font-size: 1rem;
+    margin-top: 3%;
+  }
+  .menu-content-2 {
+    font-size: 0.8rem;
+    margin: 1% 5%;
+  }
+}
