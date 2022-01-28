@@ -5,20 +5,22 @@ body {
 
 .content-heading {
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
 }
 
 .content-para {
   color: white;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 1.2 rem;
   font-weight: light;
   margin: 0;
 }
 
 .heading {
-  font-size: 60px;
+  font-size: 4rem;
   color: #86dc3d;
   font-weight: 900;
   margin: 2% 10%;
@@ -39,13 +41,15 @@ body {
 
 .menu-content-1 {
   color: white;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: 1.8rem;
   font-weight: 600;
   margin: 0 5%;
 }
 
 .menu-content-2 {
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: 1.5rem;
   color: white;
   font-weight: lighter;
   margin: 0 5%;
@@ -59,32 +63,23 @@ body {
 
 .box {
   background-color: #26580f;
-  padding: 2%;
+  padding: 1.5%;
   margin: 2%;
   border-radius: 5%;
-  width: 25%;
+  max-width: 320px;
 }
 
 .middle-container {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 2% 10%;
+  justify-content: center;
+  margin: 2% 7%;
 }
 .bottom-container {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 2% 10%;
-}
-
-@media only screen and (max-width: 600px) {
-  /* when on mobile */
-  [class*="box"] {
-    width: 100%;
-  }
+  justify-content: center;
+  margin: 2% 7%;
 }
