@@ -20,10 +20,10 @@ body {
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #86dc3d;
   font-weight: 900;
-  margin: 2% 10%;
+  margin: 2% 6%;
 }
 
 .img {
@@ -42,14 +42,14 @@ body {
 .menu-content-1 {
   color: white;
   /* font-size: 30px; */
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin: 0 5%;
 }
 
 .menu-content-2 {
   /* font-size: 25px; */
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   font-weight: lighter;
   margin: 0 5%;
@@ -74,12 +74,13 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin: 2% 7%;
+  /* margin: 2% 7%; */
 }
 .bottom-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin: 2% 7%;
+  /* margin: 2% 7%; */
 }
+
