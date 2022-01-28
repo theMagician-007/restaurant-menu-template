@@ -22,7 +22,7 @@ body {
 }
 
 .heading {
-  font-size: 2rem;
+  font-size: 4rem;
   color: #86dc3d;
   font-weight: 900;
   margin: 2% 6%;
@@ -85,6 +85,11 @@ body {
   justify-content: center;
   /* margin: 2% 7%; */
 }
+
+@media screen and (max-width: 770px) {
+  .heading {
+    font-size: 2rem;
+  }
 
 @media screen and (max-width: 450px) {
   .heading {
